@@ -1,0 +1,104 @@
+﻿<Window x:Class="KKDEnvanter.StokSayfası7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="StokSayfası7" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF0D7356"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.OpacityMask>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.OpacityMask>
+        <Label Content="Paraşüt Tipi Emniyet Kemeri" HorizontalAlignment="Left" Height="27" Margin="13,202,0,0" VerticalAlignment="Top" Width="193" FontWeight="Bold"/>
+        <Label Content="Small" HorizontalAlignment="Left" Height="28" Margin="20,248,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label Content="Medium" HorizontalAlignment="Left" Height="28" Margin="20,268,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label Content="Large" HorizontalAlignment="Left" Height="28" Margin="20,288,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label Content="X Large" HorizontalAlignment="Left" Height="28" Margin="20,308,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label Content="XX Large" HorizontalAlignment="Left" Height="28" Margin="20,328,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label Content="Etiler" HorizontalAlignment="Left" Height="28" Margin="87,221,0,0" VerticalAlignment="Top" Width="174"/>
+        <Label Content="Emirgan" HorizontalAlignment="Left" Height="28" Margin="143,221,0,0" VerticalAlignment="Top" Width="174"/>
+        <Label Content="Toplam" HorizontalAlignment="Left" Height="28" Margin="206,221,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBlock x:Name="SmallTyEtiler1" HorizontalAlignment="Left" Height="21" Margin="95,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="SmallTyEmirgan1" HorizontalAlignment="Left" Height="21" Margin="155,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="ToplamTy6" HorizontalAlignment="Left" Height="21" Margin="214,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="MediamTyEtiler1" HorizontalAlignment="Left" Height="21" Margin="95,270,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="MediumTyEmirgan1" HorizontalAlignment="Left" Height="21" Margin="155,270,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="ToplamTy7" HorizontalAlignment="Left" Height="21" Margin="214,270,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="LargeTyEtiler1" HorizontalAlignment="Left" Height="21" Margin="95,292,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="LargeTyEmirgan1" HorizontalAlignment="Left" Height="21" Margin="155,292,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="ToplamTy8" HorizontalAlignment="Left" Height="21" Margin="214,292,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="xlargeTyEtiler1" HorizontalAlignment="Left" Height="21" Margin="95,316,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="xlargeTyEmirgan1" HorizontalAlignment="Left" Height="21" Margin="155,316,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="ToplamTy9" HorizontalAlignment="Left" Height="21" Margin="214,316,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="xxlargeTyEtiler1" HorizontalAlignment="Left" Height="21" Margin="95,336,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="xxlargeTyEmirgan1" HorizontalAlignment="Left" Height="21" Margin="155,336,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="ToplamTy10" HorizontalAlignment="Left" Height="21" Margin="214,336,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="59"/>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="12,375,0,0" VerticalAlignment="Top" Height="44" Width="105" Click="Button_Click_1"/>
+        <Button Content="Sonraki Sayfa" HorizontalAlignment="Left" Margin="675,373,0,0" VerticalAlignment="Top" Height="44" Width="105" Click="Button_Click_2"/>
+        <Label Content="Perlon" HorizontalAlignment="Left" Height="31" Margin="320,90,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Karabine" HorizontalAlignment="Left" Height="31" Margin="320,110,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Sapan" HorizontalAlignment="Left" Height="31" Margin="320,130,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Çelik Halat Tutucu" HorizontalAlignment="Left" Height="31" Margin="320,150,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Makara" HorizontalAlignment="Left" Height="31" Margin="320,170,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="50m Halat" HorizontalAlignment="Left" Height="31" Margin="320,190,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="KKD Çantası" HorizontalAlignment="Left" Height="31" Margin="320,210,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Jumar" HorizontalAlignment="Left" Height="31" Margin="320,230,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Lanyard" HorizontalAlignment="Left" Height="31" Margin="320,250,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="100mt Halat" HorizontalAlignment="Left" Height="31" Margin="320,270,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Boğumlu Halat" HorizontalAlignment="Left" Height="31" Margin="320,290,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Bel Emniyet Kemeri" HorizontalAlignment="Left" Height="31" Margin="280,70,0,0" VerticalAlignment="Top" Width="148" FontWeight="Bold"/>
+        <Label Content="Ayakçak" HorizontalAlignment="Left" Height="31" Margin="320,310,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <Label Content="Etiler &#x9;&#x9;Emirgan &#x9;&#x9;Toplam" HorizontalAlignment="Left" Height="50" Margin="449,38,0,0" VerticalAlignment="Top" Width="310" FontWeight="Bold"/>
+        <TextBlock Name="BelEtiler" HorizontalAlignment="Left" Margin="459,78,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="PerlonEtiler" HorizontalAlignment="Left" Margin="459,97,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="KarabineEtiler" HorizontalAlignment="Left" Margin="459,116,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="SapanEtiler" HorizontalAlignment="Left" Margin="459,137,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="çelikEtiler" HorizontalAlignment="Left" Margin="459,156,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Makara" HorizontalAlignment="Left" Margin="459,176,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="halat50Etiler" HorizontalAlignment="Left" Margin="459,196,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="cantaEtiler" HorizontalAlignment="Left" Margin="459,216,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="jumarEtiler" HorizontalAlignment="Left" Margin="459,236,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="LanyardEtiler" HorizontalAlignment="Left" Margin="459,256,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="halat100Etiler" HorizontalAlignment="Left" Margin="459,275,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="bogumEtiler" HorizontalAlignment="Left" Margin="459,294,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="ayakEtiler" HorizontalAlignment="Left" Margin="459,312,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="BelEmirgan" HorizontalAlignment="Left" Margin="576,80,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="PerlonEmirgan" HorizontalAlignment="Left" Margin="576,99,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="KarabineEmirgan" HorizontalAlignment="Left" Margin="576,118,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="SapanEmirgan" HorizontalAlignment="Left" Margin="576,139,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="CelikHalatEmirgan" HorizontalAlignment="Left" Margin="576,158,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="makaraEmirgan" HorizontalAlignment="Left" Margin="576,178,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="halat50emirgan" HorizontalAlignment="Left" Margin="576,198,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="cantaEmirgan" HorizontalAlignment="Left" Margin="576,218,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="JumarEmirgan" HorizontalAlignment="Left" Margin="576,238,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="lanyardEmirgan" HorizontalAlignment="Left" Margin="576,258,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="halat100Emirgan" HorizontalAlignment="Left" Margin="576,277,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="bogumhalat" HorizontalAlignment="Left" Margin="576,296,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="ayakEmirgan" HorizontalAlignment="Left" Margin="576,314,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam1" HorizontalAlignment="Left" Margin="695,82,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam2" HorizontalAlignment="Left" Margin="695,101,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam3" HorizontalAlignment="Left" Margin="695,120,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam4" HorizontalAlignment="Left" Margin="695,141,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam5" HorizontalAlignment="Left" Margin="695,160,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam6" HorizontalAlignment="Left" Margin="695,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam7" HorizontalAlignment="Left" Margin="695,200,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam8" HorizontalAlignment="Left" Margin="695,220,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam9" HorizontalAlignment="Left" Margin="695,240,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam10" HorizontalAlignment="Left" Margin="695,260,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam11" HorizontalAlignment="Left" Margin="695,279,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam12" HorizontalAlignment="Left" Margin="695,298,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="Toplam13" HorizontalAlignment="Left" Margin="695,316,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

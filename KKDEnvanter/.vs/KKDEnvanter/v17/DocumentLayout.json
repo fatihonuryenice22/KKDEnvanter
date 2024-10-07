@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ronwell\\source\\repos\\KKDEnvanter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A26F30AF-7382-4A95-9CBF-7DE52D0B772C}|KKDEnvanter.csproj|c:\\users\\ronwell\\source\\repos\\kkdenvanter\\stoksayfa9.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A26F30AF-7382-4A95-9CBF-7DE52D0B772C}|KKDEnvanter.csproj|solutionrelative:stoksayfa9.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26F30AF-7382-4A95-9CBF-7DE52D0B772C}|KKDEnvanter.csproj|c:\\users\\ronwell\\source\\repos\\kkdenvanter\\stoksayfa9.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26F30AF-7382-4A95-9CBF-7DE52D0B772C}|KKDEnvanter.csproj|solutionrelative:stoksayfa9.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A26F30AF-7382-4A95-9CBF-7DE52D0B772C}|KKDEnvanter.csproj|c:\\users\\ronwell\\source\\repos\\kkdenvanter\\mymodels\\myvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A26F30AF-7382-4A95-9CBF-7DE52D0B772C}|KKDEnvanter.csproj|solutionrelative:mymodels\\myvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyVariables.cs",
+              "DocumentMoniker": "C:\\Users\\Ronwell\\source\\repos\\KKDEnvanter\\myModels\\MyVariables.cs",
+              "RelativeDocumentMoniker": "myModels\\MyVariables.cs",
+              "ToolTip": "C:\\Users\\Ronwell\\source\\repos\\KKDEnvanter\\myModels\\MyVariables.cs",
+              "RelativeToolTip": "myModels\\MyVariables.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:47:33.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StokSayfa9.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ronwell\\source\\repos\\KKDEnvanter\\StokSayfa9.xaml.cs",
+              "RelativeDocumentMoniker": "StokSayfa9.xaml.cs",
+              "ToolTip": "C:\\Users\\Ronwell\\source\\repos\\KKDEnvanter\\StokSayfa9.xaml.cs",
+              "RelativeToolTip": "StokSayfa9.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowG4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:43:02.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StokSayfa9.xaml",
+              "DocumentMoniker": "C:\\Users\\Ronwell\\source\\repos\\KKDEnvanter\\StokSayfa9.xaml",
+              "RelativeDocumentMoniker": "StokSayfa9.xaml",
+              "ToolTip": "C:\\Users\\Ronwell\\source\\repos\\KKDEnvanter\\StokSayfa9.xaml",
+              "RelativeToolTip": "StokSayfa9.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T07:39:48.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

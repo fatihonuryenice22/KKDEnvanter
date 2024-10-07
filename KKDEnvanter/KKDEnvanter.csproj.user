@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Ronwell\source\repos\KKDEnvanter\Properties\PublishProfiles\FolderProfile1.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DigerEtiler.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganAyakKoruyucular.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganAyakKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganBasKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganBaşKoruyucuEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganDigerEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganDigerSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganGozKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganGözKoruyucularSayfasıEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKasıkÇizmesiEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKasıkÇizmesiSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKategoriEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKategoriSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKislikAyakkabiEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKislikAyakkabiSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKKDEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKulakKoruyucuEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganKulakKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganOnlukEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganOnlukSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganParaşütEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganParaşütSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganSgiEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganSolunumKoruyucularEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganSolunumKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganTyvekEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganTyvekSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganVücutKoruyucularEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganVücutKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYazlikAyakkabiEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYazlikAyakkabiSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYelekEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYelekSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYGÇizmeEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYGÇizmeSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYükseklikKoruyucuEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganYükseklikKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganÇizmeEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganÇizmeSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganİsEldiveniEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmirganİsEldiveniSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerAyakkoruyucuEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerAyakKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerBasKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerBaşKoruyucuEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerDigerEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerGozKoruyucularEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerGozKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKasıkÇizmesiEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKasıkÇizmesiSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKategoriEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKategoriSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKislikAyakkabiEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKislikAyakkabiSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKKDEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKulakKoruyucuEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerKulakKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerOnlukEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerOnlukSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerParaşütEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerParaşütSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerSgiEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerSolunumKoruyucularEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerSolunumKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerTyvekEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerTyvekSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerVucutKoruyucularEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerVucutKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYazlikAyakkabiEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYazlikAyakkabiSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYelekEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYelekSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYGÇizmeEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYGÇizmeSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYükseklikKoruyucularEklemeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerYükseklikKoruyucularSilmeSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerÇizmeEkle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerÇizmeSil.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerİsEldiveniEkleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EtilerİsEldiveniSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InputDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KDDEmirganSayfasi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="KKDEtilerSayfası.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SaglikGuvenlikİsaretleriEmirganSilme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SaglikveGuvenlikİsaretleriEtiler.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Stokdetay3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Stokdetay4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Stokdetay5.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StokDetaySayfa2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StokDetayWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StokSayfa8.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StokSayfa9.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StokSayfası6.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StokSayfası7.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UrunEkleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UrunSilPencere.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DigerEtiler.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganAyakKoruyucular.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganAyakKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganBasKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganDigerEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganDigerSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganGozKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganGözKoruyucularSayfasıEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKasıkÇizmesiEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKasıkÇizmesiSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKategoriEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKategoriSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKislikAyakkabiEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKislikAyakkabiSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKKDEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKulakKoruyucuEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganKulakKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganOnlukEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganOnlukSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganParaşütEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganParaşütSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganSgiEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganSolunumKoruyucularEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganSolunumKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganTyvekEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganTyvekSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganVücutKoruyucularEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganVücutKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYazlikAyakkabiEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYazlikAyakkabiSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYelekEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYelekSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYGÇizmeEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYGÇizmeSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYükseklikKoruyucuEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganYükseklikKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganÇizmeEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganÇizmeSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganİsEldiveniEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmirganİsEldiveniSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerAyakkoruyucuEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerAyakKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerBasKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerBaşKoruyucuEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerDigerEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerGozKoruyucularEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerGozKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKasıkÇizmesiEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKasıkÇizmesiSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKategoriEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKategoriSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKislikAyakkabiEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKislikAyakkabiSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKKDEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKulakKoruyucuEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerKulakKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerOnlukEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerOnlukSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerParaşütEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerParaşütSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerSgiEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerSolunumKoruyucularEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerSolunumKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerTyvekEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerTyvekSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerVucutKoruyucularEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerVucutKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYazlikAyakkabiEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYazlikAyakkabiSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYelekEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYelekSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYGÇizmeEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYGÇizmeSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYükseklikKoruyucularEklemeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerYükseklikKoruyucularSilmeSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerÇizmeEkle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerÇizmeSil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerİsEldiveniEkleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EtilerİsEldiveniSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InputDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KDDEmirganSayfasi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KKDEtilerSayfası.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SaglikGuvenlikİsaretleriEmirganSilme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SaglikveGuvenlikİsaretleriEtiler.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Stokdetay3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Stokdetay4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Stokdetay5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StokDetaySayfa2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StokDetayWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StokSayfa9.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StokSayfası6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StokSayfası7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UrunEkleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UrunSilPencere.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

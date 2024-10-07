@@ -1,0 +1,147 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Ekran görüntüsü 2024-08-19 083014.png" />
+    <None Remove="IMG_3111.JPG" />
+    <None Remove="IMG_3114.JPG" />
+    <None Remove="IMG_3115.JPG" />
+    <None Remove="IMG_3116.JPG" />
+    <None Remove="IMG_3116.png" />
+    <None Remove="IMG_3117.JPG" />
+    <None Remove="IMG_3118.JPG" />
+    <None Remove="IMG_3119.JPG" />
+    <None Remove="IMG_3120.PNG" />
+    <None Remove="IMG_3121.JPG" />
+    <None Remove="IMG_3122.JPG" />
+    <None Remove="IMG_3123.JPG" />
+    <None Remove="IMG_3124.JPG" />
+    <None Remove="IMG_3125.JPG" />
+    <None Remove="IMG_3126.JPG" />
+    <None Remove="IMG_3127.JPG" />
+    <None Remove="IMG_3128.PNG" />
+    <None Remove="IMG_3129.PNG" />
+    <None Remove="IMG_3131.JPG" />
+    <None Remove="IMG_3132.JPG" />
+    <None Remove="IMG_3133.JPG" />
+    <None Remove="IMG_3134.JPG" />
+    <None Remove="IMG_3135.JPG" />
+    <None Remove="IMG_3136.JPG" />
+    <None Remove="IMG_3137.JPG" />
+    <None Remove="IMG_3138.JPG" />
+    <None Remove="IMG_3140.JPG" />
+    <None Remove="IMG_3141.JPG" />
+    <None Remove="IMG_3143.JPG" />
+    <None Remove="IMG_3144.JPG" />
+    <None Remove="IMG_3145.JPG" />
+    <None Remove="IMG_3146.PNG" />
+    <None Remove="IMG_3147.JPG" />
+    <None Remove="IMG_3148.JPG" />
+    <None Remove="IMG_3149.JPG" />
+    <None Remove="IMG_3150.WEBP" />
+    <None Remove="IMG_3151.WEBP" />
+    <None Remove="IMG_3153.JPG" />
+    <None Remove="IMG_3158.JPG" />
+    <None Remove="IMG_3159.PNG" />
+    <None Remove="IMG_3163.PNG" />
+    <None Remove="IMG_3164.JPG" />
+    <None Remove="IMG_3165.WEBP" />
+    <None Remove="IMG_3166.JPG" />
+    <None Remove="IMG_3167.JPG" />
+    <None Remove="IMG_3169.JPG" />
+    <None Remove="IMG_3170.JPG" />
+    <None Remove="IMG_3171.JPG" />
+    <None Remove="IMG_3172.JPG" />
+    <None Remove="IMG_3173.JPG" />
+    <None Remove="IMG_3174.PNG" />
+    <None Remove="IMG_3175.JPG" />
+    <None Remove="IMG_3176.JPG" />
+    <None Remove="IMG_3177.JPG" />
+    <None Remove="IMG_3178.JPG" />
+    <None Remove="IMG_E3156.JPG" />
+    <None Remove="IMG_E3157.JPG" />
+    <None Remove="IMG_E3205.HEIC" />
+    <None Remove="IMG_E3205.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Ekran görüntüsü 2024-08-19 083014.png" />
+    <Resource Include="IMG_3111.JPG" />
+    <Resource Include="IMG_3114.JPG" />
+    <Resource Include="IMG_3115.JPG" />
+    <Resource Include="IMG_3116.JPG" />
+    <Resource Include="IMG_3116.png" />
+    <Resource Include="IMG_3117.JPG" />
+    <Resource Include="IMG_3118.JPG" />
+    <Resource Include="IMG_3119.JPG" />
+    <Resource Include="IMG_3120.PNG" />
+    <Resource Include="IMG_3121.JPG" />
+    <Resource Include="IMG_3122.JPG" />
+    <Resource Include="IMG_3123.JPG" />
+    <Resource Include="IMG_3124.JPG" />
+    <Resource Include="IMG_3125.JPG" />
+    <Resource Include="IMG_3126.JPG" />
+    <Resource Include="IMG_3127.JPG" />
+    <Resource Include="IMG_3128.PNG" />
+    <Resource Include="IMG_3129.PNG" />
+    <Resource Include="IMG_3131.JPG" />
+    <Resource Include="IMG_3132.JPG" />
+    <Resource Include="IMG_3133.JPG" />
+    <Resource Include="IMG_3134.JPG" />
+    <Resource Include="IMG_3135.JPG" />
+    <Resource Include="IMG_3136.JPG" />
+    <Resource Include="IMG_3137.JPG" />
+    <Resource Include="IMG_3138.JPG" />
+    <Resource Include="IMG_3140.JPG" />
+    <Resource Include="IMG_3141.JPG" />
+    <Resource Include="IMG_3143.JPG" />
+    <Resource Include="IMG_3144.JPG" />
+    <Resource Include="IMG_3145.JPG" />
+    <Resource Include="IMG_3146.PNG" />
+    <Resource Include="IMG_3147.JPG" />
+    <Resource Include="IMG_3148.JPG" />
+    <Resource Include="IMG_3149.JPG" />
+    <Resource Include="IMG_3150.WEBP" />
+    <Resource Include="IMG_3151.WEBP" />
+    <Resource Include="IMG_3153.JPG" />
+    <Resource Include="IMG_3158.JPG" />
+    <Resource Include="IMG_3159.PNG" />
+    <Resource Include="IMG_3163.PNG" />
+    <Resource Include="IMG_3164.JPG" />
+    <Resource Include="IMG_3165.WEBP" />
+    <Resource Include="IMG_3166.JPG" />
+    <Resource Include="IMG_3167.JPG" />
+    <Resource Include="IMG_3169.JPG" />
+    <Resource Include="IMG_3170.JPG" />
+    <Resource Include="IMG_3171.JPG" />
+    <Resource Include="IMG_3172.JPG" />
+    <Resource Include="IMG_3173.JPG" />
+    <Resource Include="IMG_3174.PNG" />
+    <Resource Include="IMG_3175.JPG" />
+    <Resource Include="IMG_3176.JPG" />
+    <Resource Include="IMG_3177.JPG" />
+    <Resource Include="IMG_3178.JPG" />
+    <Resource Include="IMG_E3156.JPG" />
+    <Resource Include="IMG_E3157.JPG" />
+    <Resource Include="IMG_E3205.HEIC" />
+    <Resource Include="IMG_E3205.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="EtilerKKDEklemeSayfasi.xaml">
+      <CustomToolNamespace></CustomToolNamespace>
+    </Page>
+  </ItemGroup>
+
+</Project>

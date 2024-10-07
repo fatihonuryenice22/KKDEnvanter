@@ -1,0 +1,33 @@
+﻿<Window x:Class="KKDEnvanter.KKDEtilerSayfası"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="KKDEtilerSayfası" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_E3205.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="46,348,0,0" VerticalAlignment="Top" Height="58" Width="137" Click="Button_Click_1" FontWeight="Bold" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00FDEB" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="37,81,0,0" TextWrapping="Wrap" Text="Alt Kategori Seçiniz!" VerticalAlignment="Top" Width="186" FontFamily="Times New Roman" FontWeight="Bold"/>
+        <Button Content="Baş Koruyucular" HorizontalAlignment="Left"  Background="#FF003663" Foreground="#FFFAFAFA" Height="74" Margin="73,122,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click" FontWeight="Bold"/>
+        <Button Content="Kulak Koruyucular" HorizontalAlignment="Left" Height="74" Foreground="Black" Background="#FF0094CE" Margin="223,124,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_2" FontWeight="Bold"/>
+        <Button Content="Göz Koruyucular" HorizontalAlignment="Left" Height="74" Margin="373,129,0,0" Background="#FF00AEEF" VerticalAlignment="Top" Width="127" Click="Button_Click_3" FontWeight="Bold"/>
+        <Button Content="Solunum Koruyucular" HorizontalAlignment="Left" Height="74" Background="#FF003663" Foreground="#FFFAFAFA" Margin="523,127,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_4" FontWeight="Bold"/>
+        <Button Content="Vücut Koruyucular" HorizontalAlignment="Left" Height="74" Foreground="Black" Background="#FF0094CE" Margin="148,233,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_5" FontWeight="Bold"/>
+        <Button Content="Ayak Koruyucular" HorizontalAlignment="Left" Height="74" Background="#FF00AEEF" Margin="298,233,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_6" FontWeight="Bold"/>
+        <Button Content="Yükseklik Koruyucuları" HorizontalAlignment="Left" Height="74" Background="#FF003663" Foreground="#FFFAFAFA" Margin="448,233,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_7" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

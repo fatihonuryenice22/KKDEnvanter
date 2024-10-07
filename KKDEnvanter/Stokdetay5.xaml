@@ -1,0 +1,156 @@
+﻿<Window x:Class="KKDEnvanter.Stokdetay5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="Stokdetay5" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF0D7356"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Sonraki Sayfa" HorizontalAlignment="Left" Margin="675,373,0,0" VerticalAlignment="Top" Height="44" Width="105" Click="Button_Click" />
+        <Label Content="Kışlık Ayakkabı" HorizontalAlignment="Left" Height="34" Margin="60,71,0,0" VerticalAlignment="Top" Width="131" FontWeight="Bold"/>
+        <Label Content="Yazlık Ayakkabı" HorizontalAlignment="Left" Height="34" Margin="283,71,0,0" VerticalAlignment="Top" Width="131" FontWeight="Bold"/>
+        <Label Content="Çizme Ayakkabı" HorizontalAlignment="Left" Height="34" Margin="508,71,0,0" VerticalAlignment="Top" Width="131" FontWeight="Bold"/>
+        <Label Content="Etiler  Emirgan   Toplam" HorizontalAlignment="Left" Height="39" Margin="22,98,0,0" VerticalAlignment="Top" Width="207" FontWeight="Bold"/>
+        <Label Content="Etiler  Emirgan   Toplam" HorizontalAlignment="Left" Height="39" Margin="233,98,0,0" VerticalAlignment="Top" Width="207" FontWeight="Bold"/>
+        <Label Content="Etiler  Emirgan   Toplam" HorizontalAlignment="Left" Height="39" Margin="464,98,0,0" VerticalAlignment="Top" Width="207" FontWeight="Bold"/>
+        <Label Content="36" HorizontalAlignment="Left" Height="27" Margin="2,123,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="37" HorizontalAlignment="Left" Height="27" Margin="2,143,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="38" HorizontalAlignment="Left" Height="27" Margin="2,163,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="39" HorizontalAlignment="Left" Height="27" Margin="2,183,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="40" HorizontalAlignment="Left" Height="27" Margin="2,203,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="41" HorizontalAlignment="Left" Height="27" Margin="2,223,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="42" HorizontalAlignment="Left" Height="27" Margin="2,243,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="43" HorizontalAlignment="Left" Height="27" Margin="2,263,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="44" HorizontalAlignment="Left" Height="27" Margin="2,283,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold"/>
+        <Label Content="45" HorizontalAlignment="Left" Height="27" Margin="2,303,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold" RenderTransformOrigin="0.482,0.664"/>
+        <Label Content="46" HorizontalAlignment="Left" Height="27" Margin="2,323,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold" RenderTransformOrigin="0.482,0.664"/>
+        <Label Content="47" HorizontalAlignment="Left" Height="27" Margin="2,343,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold" RenderTransformOrigin="0.482,0.664"/>
+        <Label Content="48" HorizontalAlignment="Left" Height="27" Margin="2,363,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold" RenderTransformOrigin="0.482,0.664"/>
+        <TextBlock Name="kislik36etiler" HorizontalAlignment="Left" Margin="30,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik37etiler" HorizontalAlignment="Left" Margin="30,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik38etiler" HorizontalAlignment="Left" Margin="30,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik39etiler" HorizontalAlignment="Left" Margin="30,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik40etiler" HorizontalAlignment="Left" Margin="30,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik41etiler" HorizontalAlignment="Left" Margin="30,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler42" HorizontalAlignment="Left" Margin="30,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler43" HorizontalAlignment="Left" Margin="30,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler44" HorizontalAlignment="Left" Margin="30,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler45" HorizontalAlignment="Left" Margin="30,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler46" HorizontalAlignment="Left" Margin="30,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler47" HorizontalAlignment="Left" Margin="30,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler48" HorizontalAlignment="Left" Margin="30,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik36etiler_Kopyala" HorizontalAlignment="Left" Margin="80,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik37etiler_Kopyala" HorizontalAlignment="Left" Margin="80,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik38etiler_Kopyala" HorizontalAlignment="Left" Margin="80,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock Name="kislik39etiler_Kopyala" HorizontalAlignment="Left" Margin="80,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik40etiler_Kopyala" HorizontalAlignment="Left" Margin="80,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik41etiler_Kopyala" HorizontalAlignment="Left" Margin="80,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler42_Kopyala" HorizontalAlignment="Left" Margin="80,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler43_Kopyala" HorizontalAlignment="Left" Margin="80,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler44_Kopyala" HorizontalAlignment="Left" Margin="80,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler45_Kopyala" HorizontalAlignment="Left" Margin="80,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler46_Kopyala" HorizontalAlignment="Left" Margin="80,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler47_Kopyala" HorizontalAlignment="Left" Margin="80,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler48_Kopyala" HorizontalAlignment="Left" Margin="80,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik36etiler_Kopyala1" HorizontalAlignment="Left" Margin="135,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik37etiler_Kopyala1" HorizontalAlignment="Left" Margin="135,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik38etiler_Kopyala1" HorizontalAlignment="Left" Margin="135,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock Name="kislik39etiler_Kopyala1" HorizontalAlignment="Left" Margin="135,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik40etiler_Kopyala1" HorizontalAlignment="Left" Margin="135,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kislik41etiler_Kopyala1" HorizontalAlignment="Left" Margin="135,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler42_Kopyala1" HorizontalAlignment="Left" Margin="135,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler43_Kopyala1" HorizontalAlignment="Left" Margin="135,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler44_Kopyala1" HorizontalAlignment="Left" Margin="135,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler45_Kopyala1" HorizontalAlignment="Left" Margin="135,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler46_Kopyala1" HorizontalAlignment="Left" Margin="135,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler47_Kopyala1" HorizontalAlignment="Left" Margin="135,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="kisliketiler48_Kopyala1" HorizontalAlignment="Left" Margin="135,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazlik36etiler" HorizontalAlignment="Left" Margin="242,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazlik37etiler" HorizontalAlignment="Left" Margin="242,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazlik38etiler" HorizontalAlignment="Left" Margin="242,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock Name="yazlik39etiler" HorizontalAlignment="Left" Margin="242,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazlik40etiler" HorizontalAlignment="Left" Margin="242,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazlik41etiler" HorizontalAlignment="Left" Margin="242,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazliketiler42" HorizontalAlignment="Left" Margin="242,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazliketiler43" HorizontalAlignment="Left" Margin="242,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazliketiler44" HorizontalAlignment="Left" Margin="242,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazliketiler45" HorizontalAlignment="Left" Margin="242,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazliketiler46" HorizontalAlignment="Left" Margin="242,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazliketiler47" HorizontalAlignment="Left" Margin="242,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock Name="yazliketiler48" HorizontalAlignment="Left" Margin="242,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik36etiler_Kopyala" HorizontalAlignment="Left" Margin="296,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik37etiler_Kopyala" HorizontalAlignment="Left" Margin="296,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik38etiler_Kopyala" HorizontalAlignment="Left" Margin="296,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock x:Name="yazlik39etiler_Kopyala" HorizontalAlignment="Left" Margin="296,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik40etiler_Kopyala" HorizontalAlignment="Left" Margin="296,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik41etiler_Kopyala" HorizontalAlignment="Left" Margin="296,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler42_Kopyala" HorizontalAlignment="Left" Margin="296,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler43_Kopyala" HorizontalAlignment="Left" Margin="296,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler44_Kopyala" HorizontalAlignment="Left" Margin="296,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler45_Kopyala" HorizontalAlignment="Left" Margin="296,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler46_Kopyala" HorizontalAlignment="Left" Margin="296,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler47_Kopyala" HorizontalAlignment="Left" Margin="296,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler48_Kopyala" HorizontalAlignment="Left" Margin="296,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik36etiler_Kopyala1" HorizontalAlignment="Left" Margin="353,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik37etiler_Kopyala1" HorizontalAlignment="Left" Margin="353,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik38etiler_Kopyala1" HorizontalAlignment="Left" Margin="353,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock x:Name="yazlik39etiler_Kopyala1" HorizontalAlignment="Left" Margin="353,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik40etiler_Kopyala1" HorizontalAlignment="Left" Margin="353,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazlik41etiler_Kopyala1" HorizontalAlignment="Left" Margin="353,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler42_Kopyala1" HorizontalAlignment="Left" Margin="353,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler43_Kopyala1" HorizontalAlignment="Left" Margin="353,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler44_Kopyala1" HorizontalAlignment="Left" Margin="353,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler45_Kopyala1" HorizontalAlignment="Left" Margin="353,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler46_Kopyala1" HorizontalAlignment="Left" Margin="353,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler47_Kopyala1" HorizontalAlignment="Left" Margin="353,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="yazliketiler48_Kopyala1" HorizontalAlignment="Left" Margin="353,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme36etiler" HorizontalAlignment="Left" Margin="473,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme37etiler" HorizontalAlignment="Left" Margin="473,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme38etiler" HorizontalAlignment="Left" Margin="473,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock x:Name="cizme39etiler" HorizontalAlignment="Left" Margin="473,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme40etiler" HorizontalAlignment="Left" Margin="473,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme41etiler" HorizontalAlignment="Left" Margin="473,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler42" HorizontalAlignment="Left" Margin="473,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler43" HorizontalAlignment="Left" Margin="473,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler44" HorizontalAlignment="Left" Margin="473,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler45" HorizontalAlignment="Left" Margin="473,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler46" HorizontalAlignment="Left" Margin="473,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler47" HorizontalAlignment="Left" Margin="473,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler48" HorizontalAlignment="Left" Margin="473,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme36etiler_Kopyala" HorizontalAlignment="Left" Margin="532,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme37etiler_Kopyala" HorizontalAlignment="Left" Margin="532,148,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme38etiler_Kopyala" HorizontalAlignment="Left" Margin="532,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock x:Name="cizme39etiler_Kopyala" HorizontalAlignment="Left" Margin="532,188,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme40etiler_Kopyala" HorizontalAlignment="Left" Margin="532,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme41etiler_Kopyala" HorizontalAlignment="Left" Margin="532,228,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler42_Kopyala" HorizontalAlignment="Left" Margin="532,248,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler43_Kopyala" HorizontalAlignment="Left" Margin="532,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler44_Kopyala" HorizontalAlignment="Left" Margin="532,288,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler45_Kopyala" HorizontalAlignment="Left" Margin="532,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler46_Kopyala" HorizontalAlignment="Left" Margin="532,328,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler47_Kopyala" HorizontalAlignment="Left" Margin="532,348,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler48_Kopyala" HorizontalAlignment="Left" Margin="532,368,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme36etiler_Kopyala1" HorizontalAlignment="Left" Margin="582,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme37etiler_Kopyala1" HorizontalAlignment="Left" Margin="582,153,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme38etiler_Kopyala1" HorizontalAlignment="Left" Margin="582,170,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42" RenderTransformOrigin="0.451,-0.513"/>
+        <TextBlock x:Name="cizme39etiler_Kopyala1" HorizontalAlignment="Left" Margin="582,190,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme40etiler_Kopyala1" HorizontalAlignment="Left" Margin="582,207,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizme41etiler_Kopyala1" HorizontalAlignment="Left" Margin="582,226,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler42_Kopyala1" HorizontalAlignment="Left" Margin="582,244,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler43_Kopyala1" HorizontalAlignment="Left" Margin="582,262,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler44_Kopyala1" HorizontalAlignment="Left" Margin="582,279,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler45_Kopyala1" HorizontalAlignment="Left" Margin="582,299,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler46_Kopyala1" HorizontalAlignment="Left" Margin="582,320,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler47_Kopyala1" HorizontalAlignment="Left" Margin="582,340,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+        <TextBlock x:Name="cizmeetiler48_Kopyala1" HorizontalAlignment="Left" Margin="582,360,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="42"/>
+
+    </Grid>
+</Window>

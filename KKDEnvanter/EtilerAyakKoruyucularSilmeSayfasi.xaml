@@ -1,0 +1,74 @@
+﻿<Window x:Class="KKDEnvanter.EtilerAyakKoruyucularSilmeSayfasi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="EtilerAyakKoruyucularSilmeSayfasi" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_E3205.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="46,348,0,0" VerticalAlignment="Top" Height="58" Width="137" Click="Button_Click_1" FontWeight="Bold" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF00FDEB" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Kışlık Koruyucu Ayakkabı" HorizontalAlignment="Left" Height="69" Margin="96,96,0,0" VerticalAlignment="Top" Width="139"  FontWeight="Bold" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3167.JPG" Stretch="Uniform"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Yazlık Koruyucu Ayakkabı" HorizontalAlignment="Left" Height="69" Margin="443,219,0,0" VerticalAlignment="Top" Width="139" FontWeight="Bold" Click="Button_Click_5">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3165.WEBP" Stretch="UniformToFill"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Çizme" HorizontalAlignment="Left" Height="69" Margin="199,219,0,0" VerticalAlignment="Top" Width="139" FontWeight="Bold" Click="Button_Click_4">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3138.JPG"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Yüksek Gerilim Çizmesi" HorizontalAlignment="Left" Height="69" Margin="545,96,0,0" VerticalAlignment="Top" Width="139" FontWeight="Bold" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3137.JPG"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Kasık Çizmesi" HorizontalAlignment="Left" Height="69" Margin="327,96,0,0" VerticalAlignment="Top" Width="139" FontWeight="Bold" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3166.JPG"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+    </Grid>
+</Window>

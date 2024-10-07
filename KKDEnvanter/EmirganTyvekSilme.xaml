@@ -1,0 +1,24 @@
+﻿<Window x:Class="KKDEnvanter.EmirganTyvekSilme"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="EmirganTyvekSilme" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_E3205.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="46,348,0,0" VerticalAlignment="Top" Height="58" Width="137" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="110,77,0,0" TextWrapping="Wrap" Text="Beden Giriniz" VerticalAlignment="Top" Width="436" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Small" HorizontalAlignment="Left" Height="78" Margin="65,164,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click"/>
+        <Button Content="Medium" HorizontalAlignment="Left" Height="78" Margin="346,164,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_3"/>
+        <Button Content="Large" HorizontalAlignment="Left" Height="78" Margin="651,164,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_5"/>
+        <Button Content="X-Large" HorizontalAlignment="Left" Height="78" Margin="219,248,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_2"/>
+        <Button Content="XX-Large" HorizontalAlignment="Left" Height="78" Margin="513,248,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_4"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,62 @@
+﻿<Window x:Class="KKDEnvanter.EtilerDigerEklemeSayfasi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="EtilerDigerEklemeSayfasi" Height="450" Width="800">
+    <Grid>
+
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_E3205.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="46,348,0,0" VerticalAlignment="Top" Height="58" Width="137" Click="Button_Click_1" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF07FCE1" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Content="Göz Duşu" HorizontalAlignment="Left" Margin="116,87,0,0" VerticalAlignment="Top" Height="69" Width="146" FontWeight="Bold" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3177.JPG"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Merdiven Tutma Aparatı" HorizontalAlignment="Left" Margin="324,87,0,0" VerticalAlignment="Top" Height="70" Width="146" FontWeight="Bold" Click="Button_Click_2"/>
+        <Button Content="El Temizleme Jeli" HorizontalAlignment="Left" Margin="518,87,0,0" VerticalAlignment="Top" Height="69" Width="146" FontWeight="Bold" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3178.JPG"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Diger Ekipman" HorizontalAlignment="Left" Margin="116,206,0,0" VerticalAlignment="Top" Height="69" Width="146" FontWeight="Bold" Click="Button_Click5" Foreground="Black" Background="#FF0066F1">
+
+
+        </Button>
+        <Button Content="Diger Ekipman 2" HorizontalAlignment="Left" Margin="323,206,0,0" VerticalAlignment="Top" Height="69" Width="146" FontWeight="Bold" Click="Button_Click6" Foreground="Black" Background="#FF0066F1">
+
+
+        </Button>
+        <Button Content="Diger Ekipman 3" HorizontalAlignment="Left" Margin="518,206,0,0" VerticalAlignment="Top" Height="69" Width="146" FontWeight="Bold" Click="Button_Click7" Foreground="Black" Background="#FF0066F1">
+
+
+        </Button>
+
+
+    </Grid>
+</Window>

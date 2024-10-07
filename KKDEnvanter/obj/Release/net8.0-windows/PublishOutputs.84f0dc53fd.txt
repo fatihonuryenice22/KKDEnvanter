@@ -1,0 +1,6 @@
+C:\Users\Ronwell\Desktop\KKD Envanter\KKDEnvanter.exe
+C:\Users\Ronwell\Desktop\KKD Envanter\KKDEnvanter.dll
+C:\Users\Ronwell\Desktop\KKD Envanter\KKDEnvanter.deps.json
+C:\Users\Ronwell\Desktop\KKD Envanter\KKDEnvanter.runtimeconfig.json
+C:\Users\Ronwell\Desktop\KKD Envanter\KKDEnvanter.pdb
+C:\Users\Ronwell\Desktop\KKD Envanter\Newtonsoft.Json.dll

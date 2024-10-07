@@ -1,0 +1,34 @@
+﻿<Window x:Class="KKDEnvanter.EmirganKislikAyakkabiEkle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="EmirganKislikAyakkabiEkle" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_E3205.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="46,348,0,0" VerticalAlignment="Top" Height="58" Width="137" Click="Button_Click_1"/>
+        <Button Content="36 Numara" HorizontalAlignment="Left" Height="50" Margin="53,97,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click"/>
+        <Button Content="41 Numara" HorizontalAlignment="Left" Height="50" Margin="211,186,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_6"/>
+        <Button Content="40 Numara" HorizontalAlignment="Left" Height="50" Margin="56,186,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_5"/>
+        <Button Content="39 Numara" HorizontalAlignment="Left" Height="50" Margin="517,97,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_4"/>
+        <Button Content="38 Numara" HorizontalAlignment="Left" Height="50" Margin="361,97,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_3"/>
+        <Button Content="37 Numara" HorizontalAlignment="Left" Height="50" Margin="211,97,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_2"/>
+        <Button Content="44 Numara" HorizontalAlignment="Left" Height="50" Margin="58,263,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_9"/>
+        <Button Content="43 Numara" HorizontalAlignment="Left" Height="50" Margin="515,186,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_8"/>
+        <Button Content="42 Numara" HorizontalAlignment="Left" Height="50" Margin="363,186,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_7"/>
+        <Button Content="46 Numara" HorizontalAlignment="Left" Height="50" Margin="368,263,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_11"/>
+        <Button Content="45 Numara" HorizontalAlignment="Left" Height="50" Margin="211,263,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_10"/>
+        <Button Content="47 Numara" HorizontalAlignment="Left" Height="50" Margin="513,263,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_12"/>
+        <Button Content="48 Numara" HorizontalAlignment="Left" Height="50" Margin="646,264,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_13"/>
+
+
+
+
+    </Grid>
+</Window>

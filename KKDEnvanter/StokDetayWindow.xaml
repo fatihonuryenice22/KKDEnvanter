@@ -1,0 +1,60 @@
+﻿<Window x:Class="KKDEnvanter.StokDetayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF0D7356"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="12,375,0,0" VerticalAlignment="Top" Height="44" Width="105" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+        <TextBlock Name="MyTextBlock" HorizontalAlignment="Left" Margin="331,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Etiler" HorizontalAlignment="Left" Height="25" Margin="325,61,0,0" VerticalAlignment="Top" Width="114" FontWeight="Bold" />
+        <Label Content="Baş Koruyucular" HorizontalAlignment="Left" Height="28" Margin="38,60,0,0" VerticalAlignment="Top" Width="156" FontWeight="Bold"/>
+        <Label Content="Baretler" HorizontalAlignment="Left" Height="28" Margin="38,90,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Emirgan" HorizontalAlignment="Left" Height="25" Margin="470,61,0,0" VerticalAlignment="Top" Width="114" FontWeight="Bold" />
+        <Label Content="RL Baretleri" HorizontalAlignment="Left" Height="28" Margin="38,120,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Ter Bandı" HorizontalAlignment="Left" Height="28" Margin="38,150,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Baret Lambası" HorizontalAlignment="Left" Height="28" Margin="38,180,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Çene Bandı" HorizontalAlignment="Left" Height="28" Margin="38,210,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Yüksek Gerilim Bareti" HorizontalAlignment="Left" Height="28" Margin="38,240,0,0" VerticalAlignment="Top" Width="156"/>
+        <TextBlock Name="baretemirgan" HorizontalAlignment="Left" Margin="476,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="RLEtiler" HorizontalAlignment="Left" Margin="331,120,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="RLEmirgan" HorizontalAlignment="Left" Margin="476,120,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="teretiler" HorizontalAlignment="Left" Margin="331,150,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="teremirgan" HorizontalAlignment="Left" Margin="476,150,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="lambaetiler" HorizontalAlignment="Left" Margin="331,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="lambaemirgan" HorizontalAlignment="Left" Margin="476,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="cenebandietiler" HorizontalAlignment="Left" Margin="331,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="cenebandiemirgan" HorizontalAlignment="Left" Margin="476,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="YGetiler" HorizontalAlignment="Left" Margin="331,240,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="YGemirgan" HorizontalAlignment="Left" Margin="476,240,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Kulak Koruyucular" HorizontalAlignment="Left" Height="28" Margin="38,270,0,0" VerticalAlignment="Top" Width="156" FontWeight="Bold"/>
+        <TextBlock Name="kordonluetiler" HorizontalAlignment="Left" Margin="331,300,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="kordonluemirgan" HorizontalAlignment="Left" Margin="476,300,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Kordonlu Kulak Koruyucu" HorizontalAlignment="Left" Height="28" Margin="38,300,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Mansonlu Kulak Koruyucu" HorizontalAlignment="Left" Height="28" Margin="38,330,0,0" VerticalAlignment="Top" Width="156"/>
+        <TextBlock Name="mansonluetiler" HorizontalAlignment="Left" Margin="331,330,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="mansonluemirgan" HorizontalAlignment="Left" Margin="476,330,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Toplam" HorizontalAlignment="Left" Height="25" Margin="600,61,0,0" VerticalAlignment="Top" Width="114" FontWeight="Bold" />
+        <TextBlock Name="ToplamBaret" HorizontalAlignment="Left" Margin="606,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="ToplamRLBaret" HorizontalAlignment="Left" Margin="606,120,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="tterbandi" HorizontalAlignment="Left" Margin="606,150,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="tlamba" HorizontalAlignment="Left" Margin="606,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="tcenebandi" HorizontalAlignment="Left" Margin="606,210,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="tygbaret" HorizontalAlignment="Left" Margin="606,240,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="toplamkordon" HorizontalAlignment="Left" Margin="606,300,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock Name="toplammanson" HorizontalAlignment="Left" Margin="606,330,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button Content="Sonraki Sayfa" HorizontalAlignment="Left" Margin="675,373,0,0" VerticalAlignment="Top" Height="44" Width="105" Click="Button_Click_2"/>
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,59 @@
+﻿<Window x:Class="KKDEnvanter.EmirganSolunumKoruyucular"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="EmirganSolunumKoruyucular" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_E3205.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="41,22,0,0" TextWrapping="Wrap" Text="İstanbul Bölge Müdürlüğü KKD Envanter Deposu" VerticalAlignment="Top" Height="31" Width="398" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
+
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="46,348,0,0" VerticalAlignment="Top" Height="58" Width="137" Click="Button_Click_1"/>
+        <Button Content="Tam Yüz Maskesi" HorizontalAlignment="Left" Height="69" Margin="158,100,0,0" VerticalAlignment="Top" Width="129" FontWeight="Bold" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3124.JPG" Stretch="UniformToFill"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Toz Maskesi" HorizontalAlignment="Left" Height="69" Margin="450,100,0,0" VerticalAlignment="Top" Width="129" FontWeight="Bold" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3126.JPG" Stretch="UniformToFill"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Aktif Karbon Maskesi" HorizontalAlignment="Left" Height="69" Margin="158,200,0,0" VerticalAlignment="Top" Width="129" FontWeight="Bold" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3125.JPG" Stretch="UniformToFill"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+        <Button Content="Gaz Filtresi" HorizontalAlignment="Left" Height="69" Margin="450,200,0,0" VerticalAlignment="Top" Width="129" FontWeight="Bold" Click="Button_Click_4">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG_3127.JPG" Stretch="UniformToFill"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="#CC0000"/>
+                <!-- Koyu Kırmızı -->
+            </Button.Foreground>
+
+        </Button>
+
+
+    </Grid>
+</Window>

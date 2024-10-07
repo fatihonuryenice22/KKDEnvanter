@@ -1,0 +1,32 @@
+﻿<Window x:Class="KKDEnvanter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KKDEnvanter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/IMG_E3205.jpg"/>
+        </Grid.Background>
+
+        <StackPanel
+            VerticalAlignment="Center"
+            HorizontalAlignment="Left"
+            Margin="50,0,0,0" Width="629">
+
+
+
+
+            <Button Content="Stok Özeti" Width="200" Height="60" Click="StokDetay_Click" Background="#FF0094CE" FontWeight="Bold"/>
+            <Button Content="Ürün Ekle" Width="200" Height="60" Margin="0,10,0,10" Click="Urunekle_Click" Background="#FFFF6600" FontWeight="Bold"/>
+            <Button Content="Ürün Sil" Width="200" Height="60" Margin="0,10,0,10" Click="UrunSil_Click" Background="#FF22B573" FontWeight="Bold"/>
+
+
+
+
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="91,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="613" Text="İSTANBUL BÖLGE MÜDÜRLÜĞÜ KKD ENVANTER BÜROSU" FontSize="20" FontWeight="Bold" />
+    </Grid>
+</Window>
